@@ -11,7 +11,7 @@ function CardImg({ item }) {
   let id = 1;
   return (
     <Link href={`/product/1`}>
-      <motion.Card
+      <Card
         animate={{ y: 100 }}
         sx={{ maxWidth: 345, width: item.activitis && "500px" }}
         className="card"
@@ -54,7 +54,7 @@ function CardImg({ item }) {
             READ MORE
           </Button>
         </CardActions>
-      </motion.Card>
+      </Card>
     </Link>
   );
 }

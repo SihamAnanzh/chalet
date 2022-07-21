@@ -52,18 +52,21 @@ const Filter = () => {
       title: "Appetizer",
       img: "assets/img/c1.jpg",
       description: "",
+      activitis: true,
     },
     {
       id: 2,
       title: "Appetizer ",
       img: "assets/img/c3.jpg",
       description: "",
+      activitis: true,
     },
     {
       id: 3,
       title: "Appetizer ",
       img: "assets/img/c4.jpg",
       description: "",
+      activitis: true,
     },
 
     {
@@ -71,12 +74,14 @@ const Filter = () => {
       title: "Dessert  ",
       img: "assets/img/c5.jpg",
       description: "",
+      activitis: true,
     },
     {
       id: 5,
       title: "Dessert ",
       img: "assets/img/c6.jpg",
       description: "",
+      activitis: true,
     },
   ];
 
@@ -172,7 +177,7 @@ const Filter = () => {
             Catering
           </div>
         </div>
-        <motion.dev Layout className="cardSecion">
+        <motion.dev className="cardSecion">
           {product.map((item) => (
             <CardImg key={item.id} item={item} />
           ))}
