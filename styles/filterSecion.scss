@@ -38,6 +38,7 @@
         align-items: center;
         margin-top: 80px;
         margin-bottom: 80px;
+        flex-wrap: wrap;
         .category {
             width: 170px;
             height: 60px;
@@ -85,4 +86,16 @@
     }
 
     
+}
+
+@media (max-width:880px) {
+
+    .contanierContent .header{
+        flex-wrap: wrap;
+ 
+    }
+    .contanierContent .header .category:not(:last-child){
+        margin-right: unset;
+        margin: 10px;
+    }
 }
