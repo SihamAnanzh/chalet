@@ -88,14 +88,26 @@
     
 }
 
-@media (max-width:880px) {
+@media (max-width:812px) {
 
     .contanierContent .header{
-        flex-wrap: wrap;
+      flex-direction: column;
  
     }
     .contanierContent .header .category:not(:last-child){
         margin-right: unset;
-        margin: 10px;
+  
+    }
+    .contanierContent .header .category:hover {
+        background-image: linear-gradient(90deg, #478ac9, #24d9ea);
+        color: #fff;
+        transform:unset;
+        padding: unset;
+
+    
+    }
+
+    .contanierContent .header .category{
+        margin-top: 20px;
     }
 }
