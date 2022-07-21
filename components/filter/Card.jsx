@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 function CardImg({ item }) {
   let id = 1;
   return (
-    <Link href={`/product/1`}>
+    <Link href="/product/1">
       <Card
         animate={{ y: 100 }}
         sx={{ maxWidth: 345, width: item.activitis && "500px" }}

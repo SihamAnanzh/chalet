@@ -146,7 +146,7 @@ const Filter = () => {
       <div className="contanierContent">
         {" "}
         <div className="headingFilter">
-          Once a year go someplace you've <br /> never been before.
+          Once a year go someplace you have <br /> never been before.
         </div>
         <div className="header">
           <div
