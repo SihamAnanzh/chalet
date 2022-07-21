@@ -1,0 +1,36 @@
+@import "./MainSection.scss";
+@import "./product.scss";
+@import "./filterSecion.scss";
+
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.contanier {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/img/bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 0;
+  overflow: hidden;
+
+}
